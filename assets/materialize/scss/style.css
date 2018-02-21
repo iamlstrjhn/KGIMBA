@@ -1,0 +1,303 @@
+body {
+  background: #F2F2F2; }
+
+.linebreak {
+  border-top: 1px dashed #2c2c2c;
+  width: 60%; }
+
+.side-nav {
+  width: 285px; }
+  .side-nav li.usview .userView {
+    background-image: url("/assets/images/desktop/vector.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8px;
+    height: 150px;
+    line-height: 0.5; }
+    .side-nav li.usview .userView .row {
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 30px;
+      padding-left: 15px; }
+      .side-nav li.usview .userView .row .col img {
+        padding-top: 10px; }
+      .side-nav li.usview .userView .row .col h4 {
+        color: #f2f2f2;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 200; }
+  .side-nav li a.waves-effect {
+    font-weight: 300; }
+    .side-nav li a.waves-effect i.nav-icon {
+      color: #0c84a7; }
+
+.github-commit .container-fluid {
+  width: 100%;
+  padding: 14px;
+  height: 50px;
+  line-height: 36px;
+  background-color: #08adb1 !important;
+  color: #e6e6e6;
+  font-size: .9rem; }
+  .github-commit .container-fluid .nav-wrapper a {
+    color: #f2f2f2; }
+    .github-commit .container-fluid .nav-wrapper a .material-icons {
+      line-height: 1;
+      padding-left: 28px; }
+
+.logo img {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.view {
+  padding-top: 70px;
+  padding-bottom: 50px; }
+  .view h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #006988;
+    font-weight: 400; }
+  .view .boxedd {
+    margin-top: 40px;
+    border: 2px  solid #bdbdbd;
+    border-radius: 6px;
+    color: #333;
+    padding: 20px; }
+    .view .boxedd p {
+      font-size: 17px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      color: #444c63; }
+
+.cover {
+  background-image: linear-gradient(115deg, #e0e0e0, #dddddd); }
+  .cover .vision {
+    padding-top: 70px;
+    padding-bottom: 50px; }
+    .cover .vision .contentvision h2 {
+      font-family: 'Raleway', sans-serif;
+      color: #006988;
+      font-weight: 400; }
+    .cover .vision .contentvision .row {
+      padding-top: 40px; }
+      .cover .vision .contentvision .row .col .aboutus h4 {
+        font-family: 'Roboto', sans-serif;
+        color: #006988;
+        font-weight: 300; }
+      .cover .vision .contentvision .row .col .aboutus p {
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: justify; }
+      .cover .vision .contentvision .row .col .aboutus .visionclass {
+        text-align: center; }
+
+.highlights {
+  padding-bottom: 70px;
+  padding-top: 50px; }
+  .highlights h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #006988;
+    font-weight: 400; }
+  .highlights h5 {
+    padding-top: 40px;
+    font-family: 'Raleway', sans-serif; }
+  .highlights .squarebox {
+    border: 2px solid #bdbdbd; }
+    .highlights .squarebox thead {
+      background-color: #2c2c2c;
+      color: #f2f2f2; }
+    .highlights .squarebox tbody tr:nth-child(even) {
+      background-color: #D6D6D6 !important; }
+
+.partnership .container {
+  padding-top: 70px;
+  padding-bottom: 50px; }
+  .partnership .container h2.center {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #006988; }
+  .partnership .container p.center {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #444c63; }
+  .partnership .container .row-partner {
+    padding-top: 40px; }
+    .partnership .container .row-partner .card-card {
+      padding-top: 40px;
+      border-radius: 5px !important;
+      box-shadow: none;
+      border: 2px solid #eee; }
+      .partnership .container .row-partner .card-card .card-partner {
+        padding: 50px; }
+      .partnership .container .row-partner .card-card .card-content {
+        padding-left: 50px; }
+        .partnership .container .row-partner .card-card .card-content a {
+          font-size: 19px;
+          color: #00bcd4 !important; }
+
+.gallery {
+  background-image: linear-gradient(115deg, #00b8d4, #00838f);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  padding-top: 70px; }
+  .gallery .container .picture h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #f2f2f2;
+    font-weight: 400; }
+  .gallery .container .picture .row .col .service {
+    background: #607d8b !important;
+    font-weight: 200;
+    height: 40px !important;
+    line-height: 39px !important;
+    border: 2px solid #f2f2f2;
+    box-shadow: none; }
+
+.sitemap .container {
+  padding-top: 70px;
+  padding-bottom: 50px; }
+  .sitemap .container h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #006988;
+    font-weight: 400; }
+  .sitemap .container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #444c63;
+    padding-bottom: 40px; }
+  .sitemap .container .bordermap {
+    border: 3px solid #bdbdbdb3 !important;
+    border-radius: 5px !important; }
+    .sitemap .container .bordermap .map {
+      padding: 20px; }
+
+.socialmedia {
+  padding-top: 70px;
+  padding-bottom: 50px; }
+  .socialmedia .container h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #006988;
+    font-weight: 400; }
+  .socialmedia .container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #444c63;
+    font-size: 17px;
+    padding-bottom: 40px; }
+  .socialmedia .container .box {
+    padding: 60px 20px 20px 20px;
+    box-shadow: none !important;
+    border: 2px solid #eee;
+    border-radius: 5px !important; }
+
+.container h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: #444c63; }
+.container .boxes {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 40px; }
+  .container .boxes h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #006988; }
+.container .responsive-table {
+  margin-bottom: 10px; }
+  .container .responsive-table thead {
+    background-color: #2c2c2c;
+    color: #f2f2f2; }
+  .container .responsive-table tbody tr:nth-child(even) {
+    background-color: #D6D6D6; }
+
+.kgi .about h3 {
+  font-family: 'Raleway',sans-serif;
+  color: #006988;
+  font-weight: 300; }
+.kgi .about p {
+  font-family: 'Roboto', sans-serif;
+  color: #444c63;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left; }
+
+.cont h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #006988; }
+.cont p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #444c63;
+  text-align: left; }
+
+.head h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #006988;
+  font-weight: 400; }
+.head p {
+  font-family: 'Roboto', sans-serif;
+  color: #444c63;
+  font-weight: 300; }
+
+.hd h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #006988;
+  font-weight: 400; }
+.hd h5 {
+  font-family: 'Roboto', sans-serif;
+  color: #444c63;
+  font-weight: 600; }
+.hd p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #444c63; }
+.hd .collapsible .collapsible-header {
+  background-color: #e0e0e0;
+  border-bottom: 1px solid #006988;
+  font-family: 'Roboto Condensed', sans-serif; }
+.hd .collapsible .collapsible-body {
+  background-color: #26a69a;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #2c2c2c; }
+  .hd .collapsible .collapsible-body p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2c2c2c; }
+
+.logincontainer {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  border: 1px solid #08adb1;
+  padding: 20px; }
+
+.footer-copyright {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.fixed-action-btn {
+  bottom: 20px;
+  right: 20px;
+  color: #0089ec; }
+  .fixed-action-btn .section {
+    -webkit-transition: opacity .5s ease-out; }
+
+.corporate .container .responsive-table thead {
+  background-color: #2c2c2c;
+  color: #f2f2f2; }
+.corporate .container .responsive-table tbody tr:nth-child(even) {
+  background-color: #D6D6D6; }
+
+.corporate-asean {
+  color: grey; }
+  .corporate-asean h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #b9b9b9; }
+
+.downloadables .container .responsive-table thead {
+  background-color: #2c2c2c;
+  color: #f2f2f2; }
+.downloadables .container .responsive-table tbody tr:nth-child(even) {
+  background-color: #D6D6D6; }
+
+/*# sourceMappingURL=style.css.map */
