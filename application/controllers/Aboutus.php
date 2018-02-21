@@ -2,13 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Aboutus extends CI_Controller {
-	public function view($page = 'home'){
-		if(!file_exists(APPPATH. 'views/pages/' .$page. '.php')){
-			show_404();
-		}
-
-		$data ['title'] = ucfirst($page);
-	}
+	
 
 
 	public function index () {
