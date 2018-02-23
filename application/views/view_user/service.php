@@ -155,7 +155,7 @@
     <ul class="hd collapsible" data-collapsible="accordion">
     <li>
       <div class="collapsible-header"><i class="material-icons">info_outline</i>Ang mga lehitimong kaanak ng kasapi ay ang mga sumusunod:</div>
-      <div class="collapsible-body"><span><p>1. Ang kanyang legal na asawa;</p><p>2. Mga tunay na anak o legal na ampon na may labing apat na araw (2-week old) ng  naisilang subalit hindi naman hihigit sa 18 taong gulang at wala pang asawa.;</p><p>3. Mga tunay na anak ng kasapi na mahigit ng 18 taong gulang, walang asawa, may   kapansanan at walang kakayahang maghanapbuhay.</p><p>4. Kung ang kasapi ay walang asawa subalit may mga anak,  ang kanyang mga legal na   kaanak ay ang mga nabanggit sa Bilang 2 at 3 sa itaas. </p></span></div>
+      <div class="collapsible-body" ><span><p style="color: #fff!important;">1. Ang kanyang legal na asawa;</p><p style="color: #fff!important;">2. Mga tunay na anak o legal na ampon na may labing apat na araw (2-week old) ng  naisilang subalit hindi naman hihigit sa 18 taong gulang at wala pang asawa.;</p><p style="color: #fff!important;">3. Mga tunay na anak ng kasapi na mahigit ng 18 taong gulang, walang asawa, may   kapansanan at walang kakayahang maghanapbuhay.</p><p style="color: #fff!important;">4. Kung ang kasapi ay walang asawa subalit may mga anak,  ang kanyang mga legal na   kaanak ay ang mga nabanggit sa Bilang 2 at 3 sa itaas. </p></span></div>
     </li>
     
   </ul>

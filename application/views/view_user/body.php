@@ -13,7 +13,6 @@
       <div class="carousel carousel-slider">
         <a class="carousel-item"><img class="responsive-img" src="assets/images/lightroom.jpg"></a>
         <a class="carousel-item" ><img class="responsive-img" src="assets/images/1.jpg"></a>
-        <a class="carousel-item" ><img class="responsive-img" src="assets/images/6.jpg"></a>
       </div>
     </div>
 </div>
