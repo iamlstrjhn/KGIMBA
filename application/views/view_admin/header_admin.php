@@ -60,7 +60,7 @@
     <li><div class="divider"></div></li>
     
     <li><a class="waves-effect" href="<?php echo base_url(); ?>Loginform/logout"><i class="material-icons" style="color:#f44336;" >replay</i>Sign Out</a></li>
-    <li><a class="subheader">©2017 KGI-MBA Inc.</a></li>
+    <li><a class="subheader">©2018 KGI-MBA Inc.</a></li>
 </ul>
        
 

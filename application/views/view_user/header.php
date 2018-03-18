@@ -67,7 +67,7 @@
 
     <li><a class="waves-effect" href="<?php echo base_url(); ?>Corporate"><i class="material-icons" style="color: #2c2c2c;" >attach_file</i>Corporate Governance</a></li>
    <li><a class="waves-effect" href="<?php echo base_url(); ?>Downloadables"><i class="material-icons" style="color: #2c2c2c;" >file_download</i>Downloadables</a></li>
-    <li><a class="subheader">©2017 KGI-MBA</a></li>
+    <li><a class="subheader">©2018 KGI-MBA</a></li>
 </ul>
        
 
