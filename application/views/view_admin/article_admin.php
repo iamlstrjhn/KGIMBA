@@ -9,7 +9,7 @@
 	<small>UPDATED ON: <?php echo $post['Date Created']; ?></small>	
 	<p><?php echo $post['Content']; ?></p>
 		
-	<p><a class="btn" href="/AdminNews/edit/<?php echo $post['slug']; ?>">Edit</a>
+	<p><a class="btn" href="<?php echo base_url(); ?>AdminNews/edit/<?php echo $post['slug']; ?>">Edit</a>
 
 	<a class="btn right	" href="<?php echo base_url(); ?>AdminNews">Go Back</a></p>
 

@@ -25,7 +25,7 @@
                   Lot 25 Blk 12, Sta Monica Subdv., Subic, Zambales<br>
                   Telefax: (047)232-1871<br>
                   Mobile No.:(+63)908-8638-419</p>
-                  <p><a href="<?php echo base_url(); ?>Loginform" class="white-text">Login Admin</a></p>
+                  <p><a href="<?php echo base_url(); ?>Loginform" style="color: #686868;" >Login Admin</a></p>
                  
               </div>
             </div>
