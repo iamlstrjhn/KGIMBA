@@ -14,8 +14,8 @@
                       <a class="grey-text" style="font-family: 'Roboto Condensed', sans-serif;">FOLLOW US</a> &ensp;
                   </p>
                   <p>
-                    <a href=""><img src="assets/icons/fb.png" alt width="25" height="25"></a>&ensp;
-                    <a href=""><img src="assets/icons/yt.png" alt width="25" height="25"></a>
+                    <a href=""><img src="<?php echo base_url('assets/icons/fb.png') ?>" alt width="25" height="25"></a>&ensp;
+                    <a href=""><img src="<?php echo base_url('assets/icons/yt.png') ?>" alt width="25" height="25"></a>
                   </p>
                  
               </div>
@@ -25,7 +25,7 @@
                   Lot 25 Blk 12, Sta Monica Subdv., Subic, Zambales<br>
                   Telefax: (047)232-1871<br>
                   Mobile No.:(+63)908-8638-419</p>
-                  <p><a href="<?php echo base_url(); ?>Loginform" style="color: #686868;" >Login Admin</a></p>
+                  <p><a href="<?php echo base_url('login'); ?>" style="color: #686868;" >Login Admin</a></p>
                  
               </div>
             </div>
@@ -44,7 +44,7 @@
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="/assets/materialize/js/materialize.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/materialize/js/materialize.min.js') ?>"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkVcevF06CXAGQeJq2j0VLlVwJ9sVQPu0&callback=initMap" async defer></script>
 
 

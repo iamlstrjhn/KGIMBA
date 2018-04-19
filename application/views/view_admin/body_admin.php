@@ -81,7 +81,7 @@
               	<td><?php echo $asset->Description; ?></td>
               	<td><?php echo $asset->Total; ?></td>
               	<td>
-              		<a class='dropdown-button btn pink lighten-1' href='adminuser/delete_operation/<?php echo $x; ?>'>DELETE</a>
+              		<a class='dropdown-button btn red lighten-1' href='adminuser/delete_operation/<?php echo $x; ?>'>DELETE</a>
 
 				  
               	</td>
@@ -158,7 +158,7 @@
               	<td><?php echo $financial->Description1 ?></td>
               	<td><?php echo $financial->Total1 ?></td>
               	<td>
-              	<a class='dropdown-button btn pink lighten-1' href='adminuser/delete_financial/<?php echo $xy; ?>'>DELETE</a>
+              	<a class='dropdown-button btn red lighten-1' href='adminuser/delete_financial/<?php echo $xy; ?>'>DELETE</a>
   				</td>
               </tr>
               <?php 

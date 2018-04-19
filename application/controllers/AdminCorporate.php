@@ -49,15 +49,15 @@ class AdminCorporate extends CI_Controller {
                      	
                 }
                 else
-                {
-                        $data = array('upload_data' => $this->upload->data());
-                        $File = $_FILES['userfile']['name'];
-                        $this->Corporate_Model->create_corporate($File);
-						redirect('AdminCorporate');
-                }
+
+	                {
+	                        $data = array('upload_data' => $this->upload->data());
+	                        $File = $_FILES['userfile']['name'];
+	                        $this->Corporate_Model->create_corporate($File);
+							redirect('AdminCorporate');
+	                }
 
 
-				
 			}
 
 			

@@ -13,8 +13,8 @@
                       <a class="grey-text" style="font-family: 'Roboto Condensed', sans-serif;">FOLLOW US</a> &ensp;
                   </p>
                   <p>
-                    <a href=""><img src="assets/icons/fb.png" alt width="25" height="25"></a>&ensp;
-                    <a href=""><img src="assets/icons/yt.png" alt width="25" height="25"></a>
+                    <a href=""><img src="<?php echo base_url('assets/icons/fb.png') ?>" alt width="25" height="25"></a>&ensp;
+                    <a href=""><img src="<?php echo base_url('assets/icons/yt.png') ?>" alt width="25" height="25"></a>
                   </p>
                  
               </div>
@@ -42,7 +42,7 @@
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="/assets/materialize/js/materialize.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/materialize/js/materialize.min.js') ?>"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkVcevF06CXAGQeJq2j0VLlVwJ9sVQPu0&callback=initMap" async defer></script>
 
 

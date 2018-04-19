@@ -53,12 +53,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Usermain';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
 $route['adminuser/delete/(:any)'] = 'AdminUser/delete_operation/$1';
 $route['adminuser/delete/(:any)'] = 'AdminUser/delete_financial/$2';
 $route['AdminCorporate/delete/(:any)'] = 'AdminCorporate/delete_upload/$1';
 $route['AdminCorporate/delete/(:any)'] = 'AdminCorporate/delete_upload_corp/$2';
 $route['AdminDownloadable/delete/(:any)'] = 'AdminDownloadable/delete_upload/$1';
 $route['email'] = 'Usermain';
+
+
+$route['aboutus'] = 'Aboutus';
+$route['corporate'] = 'Corporate';
+$route['downloadables'] = 'Downloadables';
+$route['gallery'] = 'Gallery';
+$route['login'] = 'Loginform';
+$route['management'] = 'Management';
+$route['news'] = 'News';
+$route['services'] = 'Services';
+$route['home'] = 'Usermain';
+
+
+$route['admin-corporate'] = 'Aboutus';
+$route['admin-downloadable'] = 'AdminDownloadable';
+$route['admin-management'] = 'AdminManagement';
+$route['admin-news'] = 'AdminNews';
+$route['home-admin'] = 'AdminUser';
+$route['gallery-admin'] = 'GalleryAdmin';
 
 
 

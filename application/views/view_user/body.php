@@ -7,18 +7,20 @@
 
  <div class="divider"></div>
 
-<!--####################CAROUSEL#######################-->
+<!-- This is the carousel part -->
+
 <div class="container">
    <div class="carousel carousel-slider center" data-indicators="true">
       <div class="carousel carousel-slider">
-        <a class="carousel-item"><img class="responsive-img" src="assets/images/lightroom.jpg"></a>
-        <a class="carousel-item" ><img class="responsive-img" src="assets/images/1.jpg"></a>
+        <a class="carousel-item"><img class="responsive-img" src="assets/images/lightroom-optimized.jpg"></a>
+        <a class="carousel-item" ><img class="responsive-img" src="assets/images/1-optimized.jpg"></a>
       </div>
     </div>
 </div>
 </div>
 
-<!--####################INTRODUCTION#######################-->
+<!-- This part is the introduction -->
+
 <div class="didiver"></div>
 <div class="divider"></div>
 
@@ -26,7 +28,6 @@
   <div class="view container">
     <center>
       <h2 class="">WHO WE ARE</h2>
-      <!--<div class="divide" style="border-top: 1px dashed #8c8b8b; width: 60%;"></div>-->
       <p style="font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 17px;">We want you to know about us</p>
       </center>
       <div class="boxedd">
@@ -36,8 +37,9 @@
  </div>
 </div>
 
+<!-- Objective part -->
 
-<!--##################OBJECTIVES#######################-->
+
 <div class="cover">
 <div class="vision container">
     <div class="contentvision">
@@ -81,7 +83,8 @@
 </div>
 
 
-<!--####################highlights#######################-->
+<!-- Highlight part -->
+
 <section class="highlight">
         <div class="highlights container">
           <h2 class="center">AT A GLANCE</h2>
@@ -111,6 +114,7 @@
                 </tbody>
                     
           </table>
+
           <h5>Financial Highlights</h5>
             <table class=" squarebox responsive-table  hoverable" style="font-weight: 300;">
               <thead style="background-color: #2c2c2c;color: #f2f2f2;">
@@ -162,10 +166,10 @@
                    </ul>
 
                 
-                  <span><a class="btn service" href="<?php echo base_url(); ?>Services">View more</a></span>
+                  <span><a class="btn service" href="<?php echo base_url('Services'); ?>">View more</a></span>
                 </div>
                 <div class="col s12 m4">
-                  <img class="responsive-img" src="assets/images/handicon-01.png" style="padding: 25px 0 0 0;">
+                  <img class="responsive-img" src="<?php echo base_url('assets/images/handicon-01.png') ?>" style="padding: 25px 0 0 0;">
                 </div>
             </div>            
         
@@ -183,7 +187,7 @@
           <div class="col s12 m6 l6">
             <div class="card card-card">
               <div class="card-image waves-effect waves-block waves-light card-partner">
-                <img class="responsive-img" src="assets/images/rimansii.png">
+                <img class="responsive-img" src="<?php echo base_url('assets/images/rimansii.png') ?>">
               </div>
               <div class="divider"></div>
               <div class="card-content">
@@ -195,7 +199,7 @@
           <div class="col s12 m6 l6">
             <div class="card card-card">
               <div class="card-image waves-effect waves-block waves-light card-partner">
-                <img class="responsive-img" src="assets/images/microinsurance-logo.png">
+                <img class="responsive-img" src="<?php echo base_url('assets/images/microinsurance-logo.png') ?>">
               </div>
               <div class="divider"></div>
               <div class="card-content">
@@ -216,7 +220,6 @@
   <div class="container">
   <center>
     <h2>REACH US HERE</h2>
-      <!--<div class="divide" style="border-top: 1px dashed #8c8b8b; width: 60%"></div>-->
     <p>As a part of a growing Microinsurance organization in the Philippines, we make sure that<br>
     our clients and members reach us easily as they have their consents and feedbacks<br>
     regards to the company.</p>
@@ -235,13 +238,12 @@
     <div class="container">
       <center>
         <h2>EMAIL US</h2>
-         <!-- <div class="divide" style="border-top: 1px dashed #8c8b8b; width: 60%"></div>-->
         <p>Send us your feedbacks and suggestions</p>
           <div class="box card">
                 <div class="row">
                   <?php 
-                  echo $this->session->flashdata('email_sent');
-                  echo form_open('Usermain/send_email'); ?>
+                  echo $this->session->flashdata('email_sent');?>
+                  <form method="post" action="Usermain/send_email"> 
                   <div class="col s12">
                     <div class="row">
                       <div class="input-field col s12 l6">

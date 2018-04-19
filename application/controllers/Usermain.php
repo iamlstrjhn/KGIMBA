@@ -39,15 +39,14 @@ class Usermain extends CI_Controller {
 
 		$this->load->library('email', $config);
     	$this->email->set_newline("\r\n");
-
-		$this->email->from($from_email); 
+		$this->email->from($from_email);  
 		$this->email->to($to_email);
 		$this->email->subject('subject'); 
 		$this->email->message('message'); 
 		$this->email->send();
 
          if($this->email->send())
-            $this->session->set_flashdata("email_sent","Congragulation Email Send Successfully.");
+            $this->session->set_flashdata("email_sent","Congratulation Email Send Successfully.");
         else
         $this->session->set_flashdata("email_sent","You have encountered an error");
         redirect('Usermain');

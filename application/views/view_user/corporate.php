@@ -8,7 +8,6 @@
 
 <div class="divider"></div>
 
-<!--######################################-->
 <section class="corporate">
 	<div class="container">
 		<h4>Corporate Governance</h4>

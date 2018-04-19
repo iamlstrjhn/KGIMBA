@@ -11,14 +11,13 @@
 		
 	<p><a class="btn" href="<?php echo base_url(); ?>AdminNews/edit/<?php echo $post['slug']; ?>">Edit</a>
 
-	<a class="btn right	" href="<?php echo base_url(); ?>AdminNews">Go Back</a></p>
+	
+	<a href="<?php echo base_url('AdminNews/delete'). "/" .$post['ID']; ?>" class="btn red lighten-1">REMOVE</a>
 
 
 	<hr>
-		<?php echo form_open('/AdminNews/delete/' .$post['ID']); ?>
-			<input type="submit" value="delete" class="btn red darken-4">	
-		</form>
-
+		<a class="btn" href="<?php echo base_url(); ?>AdminNews">Go Back</a></p>
+		
 		<br>
 	
 

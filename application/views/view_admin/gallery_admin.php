@@ -7,7 +7,8 @@
   	<div class="divider"></div>
 
   <div class="container">
-      <div class="boxes" style="border: 1px solid #2c2c2c; border-radius: 30px; width: 100%; padding-left: 10px; margin-top: 10px;">
+     
+        <div class="boxes" style="width: 100%;margin-top: 10px; margin-bottom: 20px;">
         <h3 style="color: #10bbb3;">Gallery</h3>
       </div>
 	
